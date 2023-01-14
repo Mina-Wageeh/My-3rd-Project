@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body
+{
+    background-color: black;
+}
+/***************************************************/
+.header
+{
+    border-bottom: 1px rgb(255, 255, 255) solid ;
+    display: flex;
+    justify-content: center;
+}
+.header .nav
+{
+    width: 85%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .logo a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+.header .nav .links
+{
+}
+.header .nav .links ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav .links ul li a
+{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+}
+.header .nav .links ul li a:hover
+{
+   color: white;
+   transition: 0.2s;
+}
+.header .nav .btn button
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fbe850;
+    border: 1px #fbe850 solid;
+    padding: 10px;
+    cursor: pointer;
+}
+.header .nav .btn button:hover
+{
+    transition: 0.4s;
+    color: #fbe850;
+    background-color: black;
+    border: 1px #fbe850 solid;
+}
+
+/**************************/
+/******** Middle **********/
+/**************************/
+.mid-lay
+{
+    
+    display: flex;
+    justify-content: center;
+}
+.middle
+{
+    width: 85%;
+}
+.middle .title
+{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 50%;
+}
+.middle .title h2
+{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.middle .title p
+{
+    color: rgb(156, 156, 156);
+    margin-top:10px ;
+}
+.middle .logos
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.middle .logos img
+{
+    width: 100px;
+    
+}
+/*********************************************/
+/*********************************************/
+.middle .sections
+{
+    display: flex;
+    justify-content: space-between;
+}
+.middle .sections img
+{ 
+    border-radius: 5px;
+}
+.middle .sections a
+{
+    text-decoration: none;
+    color: white;
+}
+.middle .sections h2
+{ 
+    margin-top: 20px;
+}
+.middle .sections p
+{ 
+    width: 530px;
+    margin-top: 5px;
+    color: rgb(156, 156, 156);
+}
+/*********************************************/
+/*********************************************/
+.foot-lay
+{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #2e3038;
+}
+.foot-lay .footer
+{
+    width: 85%;
+}
+.foot-lay .footer .sec-1
+{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    height: 220px;
+}
+.foot-lay .footer .sec-1 .left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot-lay .footer .sec-1 .right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot-lay .footer .sec-1 .left
+{
+    width: 530px;
+}
+.foot-lay .footer .sec-1 .right
+{
+    width: 530px;
+}
+.foot-lay .footer .sec-1 .left h2
+{
+    color: white;
+}
+.foot-lay .footer .sec-1 .left p
+{
+    color: rgb(156, 156, 156);
+}
+.foot-lay .footer .sec-1 .right p
+{
+    color: rgb(156, 156, 156);
+}
+
+/******************************************/
+.foot2-lay
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.foot2-lay .footer2
+{
+    width: 85%;
+}
+.foot2-lay .footer2 .sec-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.foot2-lay .footer2 .sec-2 h2
+{
+    color: white;
+}
+.foot2-lay .footer2 .sec-2 p
+{
+    color: rgb(156, 156, 156);
+}
+.foot2-lay .footer2 .sec-2 button
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fbe850;
+    border: 1px #fbe850 solid;
+    padding: 10px;
+    cursor: pointer;
+}
+.foot2-lay .footer2 .sec-2 button:hover
+{
+    transition: 0.4s;
+    color: #fbe850;
+    background-color: black;
+    border: 1px #fbe850 solid;
+}
+
+.foot3-lay
+{
+    display: flex;
+    justify-content: center;
+    background-color: #2e3038;
+    margin-top: 10px;
+}
+.foot3-lay .footer3
+{
+    width: 85%;
+}
+.foot3-lay .footer3 .sec-3 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.foot3-lay .footer3 .sec-3 .logo a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.foot3-lay .footer3 .sec-3 .social 
+{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.foot3-lay .footer3 .sec-3 .social i
+{
+    color: #ffffff;
+    font-size: 25px;
+}
+.foot3-lay .footer3 .sec-3 .social i:hover
+{
+    color: #fbe850;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
